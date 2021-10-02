@@ -1,109 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>CSS|PLAY</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navigation container">
-        <div class="nav-brand">I am a Web Developer</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link " href="/projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline link-active"><a class="link" href="/blogs.html">Blogs</a>
-            </li>
-        </ul>
+      <div class="nav-brand">I am a Web Developer</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline link-active">
+          <a class="link" href="/blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
     <header class="hero">
-        <img class="hero-img" src="images/reading-blog.svg" alt="">
-        <h1 class="hero-heading">learn from my <span class="heading-inverted">blogs</span></h1>
-        <ul class="list-non-bullet">
-            <div class="container container-center margin-md">
+      <img class="hero-img" src="images/reading-blog.svg" alt="" />
+      <h1 class="hero-heading">
+        learn from my <span class="heading-inverted">blogs</span>
+      </h1>
+      <ul class="list-non-bullet">
+        <div class="container container-center margin-md">
+          <li>
+            <h1>Let us learn about arrays in JAVA</h1>
+            <h2>Introduction</h2>
+            <p>
+              In cases where there is a need to use several variables of the
+              same type, for storing, example, names or marks of 'n' students we
+              use a data structure called arrays.
+              <br />
+              <br />
+              Arrays are basically collections of fixed numbers of elements of a
+              single type. Using arrays saves us from the time and effort
+              required to declare each of the elements of the array
+              individually.
+              <br />
+              <br />
+              The length of an array is established when the array is created.
+              After creation, its length is fixed. For example: {1,2,3,4,5} is
+              an array of integers.
+              <br />
+              <br />
+              Similarly, an array can be a collection of characters, Boolean,
+              Double as well. The length of an array is established when the
+              array is created. After creation, its length is fixed. For
+              example: {1,2,3,4,5} is an array of integers.
+              <br />
+              <br />
+            </p>
+            <ol>
+              <div>
+                <li
+                  style="background-color: #12302f"
+                  class="link link-primary margin-md"
+                >
+                  <h3>Declaring Array Variables</h3>
 
-                <li>
-                    <h1>7 Fun Ways to learn CSS By Playing Games</h1>
-                    <small>June,2020</small>
-                    <p>Learning CSS can be a frustrating experience sometime. One of the best things about learning to
-                        code is that people who are good at coding also happen to have the skills to make games that
-                        teach other people to code.
-
-                        Here are some games which help you to master CSS.</p>
-                    <ol>
-                        <div>
-                            <li style="background-color: #75c9c8;" class="link link-primary margin-md">Flexbox froggy <br/>
-                                <small>This game is about Flexbox and it covers flex properties like align-items,
-                                    justify-content, align-content, flex-direction, align-self, flex-wrap, flex-flow and
-                                    order in 24 different levels.
-
-                                    Yeah, last level is bit challenging</small><br/><br/>
-                            </li>
-                            <li style="background-color:#80a1d4; " class="link link-primary margin-md">Flexbox Zombies <br/>
-                                <small>Here we use Flexbox to position the hero’s crossbow and hit the zombies and
-                                    survive along the game.
-                                    Each section unravels part of the plot, gives you expertise over a new flexbox
-                                    concept, and presents zombie survival challenges that force you to solidify your new
-                                    skills like your life depends on it.</small><br/>
-                                    <br/>
-
-                            </li>
-                            <li style="background-color:#c0b9dd; " class="link link-primary margin-md">Flexbox defense <br/>
-                                <small>
-                                    Flexbox defense is based on the classic tower defence games, but to place our items
-                                    we write CSS instructions. We use the justify-content property on the main container
-                                    to move the single towers into effective positions.
-                                </small><br/><br/>
-                            </li>
-                            <li style="background-color:#ded9e2; " class="link link-primary margin-md">Grid Garden <br/>
-                                <small>
-                                    Grid Garden game features 28 levels, starting with easy difficulty and gradually
-                                    increasing it. Use the various grid properties to water and grow your carrot garden.
-                                    Grid Garden has a code editor and visual area so you instantly see your result.
-                                </small><br/><br/>
-                            </li>
-                            <li style="background-color:#ffcad4; " class="link link-primary margin-md">CSS Battle <br/>
-                                <small>
-                                    CSS Battle is more of an online challenge than an actual CSS practice game, the
-                                    objective is to write HTML and CSS code to replicate the given target image in the
-                                    least code possible. This game is constantly updated with new challenges. It has a
-                                    global ranking system and the ability to re-play each challenge so you can improve
-                                    your own results.
-                                </small><br/><br/>
-                            </li>
-                            <li style="background-color:#cfdbd5; " class="link link-primary margin-md">CSS Diner <br/>
-                                <small>
-                                    The CSS Diner webapp is really fun and genuinely educational for developers of all
-                                    skill levels. You’ll go through 26 different levels of increasing difficulty. The
-                                    first few levels teach core fundamentals like element selectors and class selectors.
-                                    In the later levels you’re working with advanced concepts like :only-of-type and
-                                    :not(x).
-                                </small><br/><br/>
-                            </li>
-                            <li style="background-color:#b0d7ff; " class="link link-primary margin-md">CodePip <br/>
-                                <small>
-                                    We already checked Grid Garden and Flexbox Froggy, you’ve seen some examples of
-                                    CodePip’s work already.
-                                    Those are just the two free games they offer. If you sign up for a pro account on
-                                    their site, they also have games that range from general CSS review to JavaScript.
-                                </small><br/><br/>
-                            </li>
-                        </div>
-
-                    </ol>
-
+                  <small
+                    >This game is about Flexbox and it covers flex properties
+                    like align-items, justify-content, align-content,
+                    flex-direction, align-self, flex-wrap, flex-flow and order
+                    in 24 different levels. Yeah, last level is bit
+                    challenging</small
+                  ><br /><br />
                 </li>
+                <li
+                  style="background-color: #0f2444"
+                  class="link link-primary margin-md"
+                >
+                  <h3>Synatx:</h3>
 
-            </div>
-        </ul>
+                  <h3>
+                    datatypel arrayName;<br />
+                    datatype arrayName[ ] <br />
+                    OR<br />
+                    Example:<br />
+                    int[ ] arr; <br />
+                    int arr[ ];
+                  </h3>
+                  <br />
+                  <br />
+                </li>
+                <li
+                  style="background-color: #2f2263"
+                  class="link link-primary margin-md"
+                >
+                  <h3>Creating Array</h3>
+
+                  <h4>
+                    Declaring an array variable does not create an array (i.e.
+                    no space is reserved for array). Here is the syntax for
+                    creating an array :<br />
+                    arrayRefVar = new datatype[Size];<br />
+                    Example:<br />
+                    arr=new int [20];
+                  </h4>
+                  <br /><br />
+                </li>
+              </div>
+            </ol>
+          </li>
+        </div>
+      </ul>
     </header>
-</body>
-
+  </body>
 </html>
